@@ -1,0 +1,10 @@
+from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
+q =  QuantumRegister(1) 
+c = ClassicalRegister(1) 
+qc = QuantumCircuit(q,c)
+
+qreg q[3];
+creg c[3];
+
+h q[0];
+cx q[0],q[1];
