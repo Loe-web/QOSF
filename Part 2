@@ -1,0 +1,8 @@
+
+
+qreg q[3];
+creg c[3];
+
+qc.cz(c,t)
+
+h q[0];
